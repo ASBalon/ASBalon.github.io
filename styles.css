@@ -1,5 +1,5 @@
 body {
-    background:gray;
+    background:rgb(224, 122, 95);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -7,14 +7,29 @@ body {
     display:flex;
     padding:10px;
     margin:10px;
-    background:rgb(131, 14, 13);
+    background:rgb(242, 204, 143);
+    border-radius: 5px;
 }
 .assignment img{
     width:200px;
-    padding:10px;
+    margin:10px;
+    border:4px solid #3B7A57;
+}
+
+.assignment img:hover{
+    border:4px dashed rgb(61, 64, 150);
 }
 
 h1 {
-    color:rgb(131, 14, 13);
+    color:rgb(61, 64, 150);
     text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(61, 64, 150);
+}
+
+a:hover{
+    color:rgb(224, 122, 95);
 }
